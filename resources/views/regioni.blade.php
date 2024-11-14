@@ -1,5 +1,10 @@
-@include('partials.header')
-@include('partials.menu')
+@extends('layouts.app')
+
+@section('content')
+
+    
+
+
 <h1>Regioni</h1>
 
 <form action="{{url('/regioni')}}" method="post">
@@ -32,12 +37,4 @@
 </form>
 
 
-
-
-
-
-
-
-
-
-@include('partials.footer')
+@endsection

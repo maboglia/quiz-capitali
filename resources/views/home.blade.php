@@ -1,4 +1,7 @@
-@include('partials.header')
-@include('partials.menu')
-<h1>Home</h1>
-@include('partials.footer')
+@extends('layouts.app')
+
+@section('content')
+
+    <h1>Home</h1>
+
+@endsection
